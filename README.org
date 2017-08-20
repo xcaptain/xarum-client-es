@@ -1,0 +1,15 @@
+* 简介
+使用react开发的单页面应用，用到的技术有
+1. react
+2. semantic-ui
+3. react-router
+4. redux
+
+* 开发路线
+** 首页页面开发
+** 登录注册按钮
+** 路由集成
+
+* 开发备注
+1. =yarn add semantic-ui-css= 安装css依赖
+2. =import 'semantic-ui-css/semantic.css'= 引入样式
