@@ -5,17 +5,13 @@ import {
   Divider,
   Grid,
   Header,
-  Icon,
   Image,
   List,
-  Menu,
   Segment,
-  Visibility,
 } from 'semantic-ui-react';
 
 import {
   Route,
-  NavLink,
   BrowserRouter as Router
 } from 'react-router-dom';
 

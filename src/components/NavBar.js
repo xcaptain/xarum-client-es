@@ -3,21 +3,15 @@ import React from 'react';
 import {
   Button,
   Container,
-  Divider,
-  Grid,
   Header,
   Icon,
-  Image,
-  List,
   Menu,
   Segment,
   Visibility,
 } from 'semantic-ui-react';
 
 import {
-  Route,
-  NavLink,
-  BrowserRouter as Router
+  NavLink
 } from 'react-router-dom';
 
 class FixedMenu extends React.Component {
