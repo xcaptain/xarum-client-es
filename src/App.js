@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import HomePage from './components/HomePage';
+import Home from './components/HomePage';
 import 'semantic-ui-css/semantic.css';
 
 class App extends Component {
   render() {
     return (
-      <HomePage />
+        <Home />
     );
   }
 }

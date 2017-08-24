@@ -1,4 +1,4 @@
-* 简介
+* xarum-client-es
 使用react开发的单页面应用，用到的技术有
 1. react
 2. semantic-ui
@@ -7,10 +7,12 @@
 
 * 开发路线
 - [X] 首页页面
-- [ ] 路由集成
+- [X] 路由集成
 - [ ] 登录注册
 
 * 开发备注
-1. =yarn add semantic-ui-css= 安装css依赖
-2. =import 'semantic-ui-css/semantic.css'= 引入样式
-3. 参考[[https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages][部署到github pages]]
+** 参考[[https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages][部署到github pages]]
+** 集成flow类型校验[[https://flow.org/en/docs/tools/create-react-app/][https://flow.org/en/docs/tools/create-react-app/]]
+** Semantic-ui
+1. 创建首页模板
+2. 整合react-router-dom [[https://react.semantic-ui.com/introduction][semantic-ui Augmentation]]
