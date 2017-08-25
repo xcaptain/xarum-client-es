@@ -12,12 +12,14 @@ import {
 
 import {
   Route,
+  Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
 
 import About from './About';
 import Contact from './Contact';
 import NavBar from './NavBar';
+import PageNotFound from './PageNotFound';
 
 class Homepage extends React.Component {
   render() {
@@ -136,9 +138,12 @@ export default class Home extends React.Component {
     return (
       <Router>
         <div className="home">
-          <Route exact path="/" component={Homepage}/>
-          <Route path="/about" component={About}/>
-          <Route path="/contact" component={Contact}/>
+          <Switch>
+            <Route exact path="/" component={Homepage}/>
+            <Route path="/about" component={About}/>
+            <Route path="/contact" component={Contact}/>
+            <Route component={PageNotFound} />
+          </Switch>
         </div>
       </Router>
     );

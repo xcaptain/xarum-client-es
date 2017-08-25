@@ -11,7 +11,10 @@
 - [ ] 登录注册
 
 * 开发备注
-** 参考[[https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages][部署到github pages]]
+** 参考[[https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages][部署]]
+部署到github pages时要考虑到github对react-router的支持，有2种办法可以解决
+1. 使用#分隔的url，这样能明确的告知是前端路由
+2. 使用重定向的trick，https://github.com/rafrex/spa-github-pages
 ** 集成flow类型校验[[https://flow.org/en/docs/tools/create-react-app/][https://flow.org/en/docs/tools/create-react-app/]]
 ** Semantic-ui
 1. 创建首页模板
