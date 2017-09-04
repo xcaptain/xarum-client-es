@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://xcaptain.github.io/xarum-client-es",
+  "homepage": "https://xarum.iyue.club/",
   "devDependencies": {
     "flow-bin": "^0.53.1"
   }
